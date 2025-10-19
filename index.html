@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nahin Jussephe Cevallos Vinces | Portafolio Profesional</title>
+  <meta name="description" content="Portafolio profesional de Nahin Jussephe Cevallos Vinces — Ingeniería en Ciencias Computacionales, ESPOL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img src="assets/img/Nahin.jpg" alt="Foto de Nahin Jussephe Cevallos Vinces" class="profile-img">
+      <h1>Nahin Jussephe Cevallos Vinces</h1>
+      <p>Estudiante de Ingeniería en Ciencias Computacionales — ESPOL</p>
+      <a href="#contacto" class="btn-primary">Contáctame</a>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <div class="grid-2">
+        <p>
+          Soy estudiante de Ingeniería en Ciencias Computacionales en ESPOL, apasionado por la analítica de datos,
+          el desarrollo de software y la inteligencia artificial aplicada a la educación y los negocios.
+          Mi propósito es construir soluciones que unan la tecnología con el impacto social.
+        </p>
+
+        <figure class="media">
+          <iframe
+            src="https://www.youtube.com/embed/5uIjPUyOX_U?autoplay=1&mute=1&loop=1&playlist=5uIjPUyOX_U"
+            title="Video de presentación Nahin Cevallos"
+            allow="autoplay"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </figure>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section bg-alt">
+      <h2>Experiencia</h2>
+      <div class="timeline">
+        <div class="job">
+          <h3>Mentor — Data Foundations Program</h3>
+          <span>Coding Bootcamps ESPOL (2025-Presente)</span>
+          <p>Mentoría técnica a más de 200 becarios en Python, SQL y pensamiento analítico. Coordinación académica y talleres de refuerzo.</p>
+        </div>
+        <div class="job">
+          <h3>Desarrollador Web — WiDS Guayaquil</h3>
+          <span>ESPOL (2024-2025)</span>
+          <p>Diseño y mantenimiento del sitio oficial del evento WiDS Guayaquil. Aplicación de principios de accesibilidad y usabilidad.</p>
+        </div>
+        <div class="job">
+          <h3>Analista de Datos — Tía S.A.</h3>
+          <span>Proyecto Vinculación ESPOL (2024)</span>
+          <p>Desarrollo de dashboards y modelos de identificación de micromomentos con PySpark y SQL.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion" class="section">
+      <h2>Formación Académica</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Ingeniería en Ciencias Computacionales</h3>
+          <p><strong>ESPOL</strong> — 2022-Presente</p>
+        </article>
+        <article class="card">
+          <h3>Bachiller Técnico — Diseño Gráfico</h3>
+          <p><strong>U.E.P. Filantrópica del Guayas</strong> — 2016-2022</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section bg-alt">
+      <h2>Proyectos Destacados</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Smartutor</h3>
+          <p>Chatbot educativo con IA para apoyar el aprendizaje en Fundamentos de Programación.</p>
+        </article>
+        <article class="card">
+          <h3>Micromoment Detection System</h3>
+          <p>Pipeline de análisis de ventas con PySpark y detección de patrones de alta rentabilidad.</p>
+        </article>
+        <article class="card">
+          <h3>NASA Space Apps Challenge</h3>
+          <p>Videojuego educativo sobre eclipses y el sistema solar, Top 5 nacional en 2023.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>Habilidades Técnicas</h2>
+      <ul class="skills">
+        <li>Python (Pandas, Flask)</li>
+        <li>SQL / MySQL</li>
+        <li>Java / C++</li>
+        <li>HTML5 / CSS3 / Flexbox / Grid</li>
+        <li>Power BI / Tableau</li>
+        <li>Diseño Gráfico (Adobe)</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="section bg-alt">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+
+        <label for="motivo">Motivo</label>
+        <select id="motivo" name="motivo" required>
+          <option value="">Selecciona...</option>
+          <option>Colaboración</option>
+          <option>Oferta laboral</option>
+          <option>Consulta</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nahin Jussephe Cevallos Vinces — ESPOL</p>
+    <ul class="social">
+      <li><a href="https://www.linkedin.com/in/nahin-cevallos-591433252/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/nhn2004" target="_blank">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
