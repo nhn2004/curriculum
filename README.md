@@ -49,7 +49,6 @@ El sitio está disponible en:
 
 👉 [https://nhn2004.github.io/curriculum](https://nhn2004.github.io/curriculum)
 
-> Sustituye `tuusuario` por tu nombre de usuario real de GitHub.
 
 ---
 
